@@ -4,7 +4,7 @@ import cv2
 import tensorflow as tf
 
 # Replace with your actual model path
-model_path = "O:/OD/P7"
+model_path = "folder path where you save this repo"
 
 pb_file = os.path.join(model_path, 'frozen_inference_graph.pb')
 
