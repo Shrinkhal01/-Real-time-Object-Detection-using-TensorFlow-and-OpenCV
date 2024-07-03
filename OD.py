@@ -3,7 +3,7 @@ import cv2
 #sets a threshold value (minnimum value) for the model to decide what it is 
 thres = 0.50
 
-#tcaptures the video from the webcam
+#captures the video from the webcam
 cap = cv2.VideoCapture(1)
 #Now , here we use cap to set the various aspects of the video being rendered
 cap.set(3, 1850)
