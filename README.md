@@ -1,7 +1,6 @@
 # -Real-time-Object-Detection-using-TensorFlow-and-OpenCV
 
 
-# Real-time Object Detection using TensorFlow and OpenCV
 
 ## Overview
 
