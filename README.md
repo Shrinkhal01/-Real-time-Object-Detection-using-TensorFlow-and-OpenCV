@@ -57,6 +57,7 @@ Contributions are welcome! Feel free to open issues or submit pull requests for 
 ## Acknowledgments
 Thanks to the TensorFlow and OpenCV communities for their excellent tools and libraries.
 
+## Note
 Thank you for using this script! If you have any questions or suggestions, please feel free to reach out:
 ```bash
 shrinkhalshrinkhal22@gmail.com
