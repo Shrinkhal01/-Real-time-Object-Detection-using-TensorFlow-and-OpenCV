@@ -58,5 +58,5 @@ Thanks to the TensorFlow and OpenCV communities for their excellent tools and li
 
 Thank you for using this script! If you have any questions or suggestions, please feel free to reach out:
 ```bash
-shrinkhalshrinkhal@gmail.com
+shrinkhalshrinkhal22@gmail.com
 ```
