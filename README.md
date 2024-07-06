@@ -42,13 +42,14 @@ Run the Script
 Customization
 Feel free to customize and extend the code to suit your specific use case. Contributions are welcome!
 
-Files
-    ```bash
-      od.py: Main script for real-time object detection.
-      coco.names: List of object class names.
-      frozen_inference_graph.pb: Pre-trained model weights.
-      ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt: Model configuration file.
-    ```
+**Files**
+
+```bash
+od.py: Main script for real-time object detection.
+coco.names: List of object class names.
+frozen_inference_graph.pb: Pre-trained model weights.
+ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt: Model configuration file.
+```
 
 ## Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests for improvements and bug fixes.
