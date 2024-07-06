@@ -45,10 +45,10 @@ Feel free to customize and extend the code to suit your specific use case. Contr
 **Files**
 
 ```bash
-od.py: Main script for real-time object detection.
-coco.names: List of object class names.
-frozen_inference_graph.pb: Pre-trained model weights.
-ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt: Model configuration file.
+1. od.py: Main script for real-time object detection.
+2. coco.names: List of object class names.
+3. frozen_inference_graph.pb: Pre-trained model weights.
+4. ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt: Model configuration file.
 ```
 
 ## Contributing
