@@ -1,55 +1,58 @@
-# -Real-time-Object-Detection-using-TensorFlow-and-OpenCV
+# Image Background Removal
 
-
+A Python script to remove the background from images using the rembg library.
 
 ## Overview
 
-This project provides a Python script for real-time object detection using TensorFlow and OpenCV. It leverages a pre-trained deep learning model to identify and visualize objects in a live webcam feed, displaying bounding boxes, class labels, and confidence scores for detected objects.
+This project provides a Python script to remove the background from images. It uses the rembg library to process the images and save the output with the background removed.
 
 ## Features
 
-- Integration of a pre-trained object detection model
-- Real-time processing of webcam feed
-- Visualization of detected objects with bounding boxes, class labels, and confidence scores
+- Removes background from images
+- Easy to use and integrate into other projects
+- Saves the processed images in a specified directory
 
 ## Requirements
 
-- TensorFlow
-- OpenCV
-- NumPy
+- rembg
+- Pillow
+- requests
 
 ## Usage
 
 1. **Clone the Repository**
     ```bash
-    git clone https://github.com/yourusername/Real-time-Object-Detection-using-TensorFlow-and-OpenCV.git
-    cd Real-time-Object-Detection-using-TensorFlow-and-OpenCV
+    git clone https://github.com/yourusername/Image-Background-Removal.git
+    cd Image-Background-Removal
     ```
 
-2. **Replace the `model_path` Variable**
-   Update the `model_path` variable in `od.py` with the path to your pre-trained model.
-
-3. **Modify the Camera Source**
-   Change the value `1` to `0` in the `cap` variable to use the default integrated webcam:
-   ```python
-   cap = cv2.VideoCapture(0)
-
-
-Run the Script
+2. **Install the Required Packages**
     ```bash
-       python od.py
+    pip install -r requirements.txt
     ```
-Customization
+
+3. **Place the Image to be Processed**
+   Place the image you want to process in the project root directory and rename it to `nameLogo.png`.
+
+4. **Run the Script**
+    ```bash
+    python main.py
+    ```
+
+## Customization
+
 Feel free to customize and extend the code to suit your specific use case. Contributions are welcome!
 
-**Files**
+## Files
 
 ```bash
-1. od.py: Main script for real-time object detection.
-2. coco.names: List of object class names.
-3. frozen_inference_graph.pb: Pre-trained model weights.
-4. ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt: Model configuration file.
+1. main.py: Main script for background removal.
+2. requirements.txt: Python dependencies.
+3. originals/: Directory for original images.
+4. masked/: Directory for images with removed background.
+
 ```
+
 
 ## Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests for improvements and bug fixes.
