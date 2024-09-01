@@ -1,13 +1,13 @@
 # Object Detection using SSD MobileNet v3
-This project demonstrates object detection using SSD MobileNet v3 with pre-trained models on the COCO dataset. The code captures video from your webcam, detects objects in real time, and labels them with bounding boxes and confidence scores.
+- This project demonstrates object detection using SSD MobileNet v3 with pre-trained models on the COCO dataset. The code captures video from your webcam, detects objects in real time, and labels them with bounding boxes and confidence scores.
 
 ### Table of Contents
-Overview
-Requirements
-Setup
-Usage
-COCO Classes
-References
+- Overview
+- Requirements
+- Setup
+- Usage
+- COCO Classes
+- References
 
 ### Overview
 This project uses OpenCV's DNN module to detect objects in real-time using a pre-trained model on the COCO dataset. The detection process is powered by the SSD MobileNet v3 architecture.
@@ -44,9 +44,9 @@ Run the Python script:
 ```
 python OD.py
 ```
-The script will open a window showing the webcam feed, and detected objects will be highlighted with bounding boxes along with their labels and confidence scores.
+- The script will open a window showing the webcam feed, and detected objects will be highlighted with bounding boxes along with their labels and confidence scores.
 
-Press q to quit the window.
+- Press q to quit the window.
 
 COCO Classes
 
@@ -57,9 +57,10 @@ Bicycle
 Car
 Dog
 etc.
-###The full list of classes is in the coco.names file included in this project.
 
-#References
+### The full list of classes is in the coco.names file included in this project.
+
+# References
 SSD MobileNet v3
 COCO Dataset
 OpenCV DNN module
