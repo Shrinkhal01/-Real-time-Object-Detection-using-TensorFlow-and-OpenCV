@@ -61,6 +61,6 @@ etc.
 ### The full list of classes is in the coco.names file included in this project.
 
 # References
-SSD MobileNet v3
-COCO Dataset
-OpenCV DNN module
+- SSD MobileNet v3
+- COCO Dataset
+- OpenCV DNN module
