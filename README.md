@@ -1,4 +1,4 @@
-###Object Detection using SSD MobileNet v3
+#Object Detection using SSD MobileNet v3
 This project demonstrates object detection using SSD MobileNet v3 with pre-trained models on the COCO dataset. The code captures video from your webcam, detects objects in real time, and labels them with bounding boxes and confidence scores.
 
 #Table of Contents
