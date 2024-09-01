@@ -1,67 +1,62 @@
-# Image Background Removal
+Object Detection using SSD MobileNet v3
+This project demonstrates object detection using SSD MobileNet v3 with pre-trained models on the COCO dataset. The code captures video from your webcam, detects objects in real time, and labels them with bounding boxes and confidence scores.
 
-A Python script to remove the background from images using the rembg library.
+Table of Contents
+Overview
+Requirements
+Setup
+Usage
+COCO Classes
+References
+Overview
+This project uses OpenCV's DNN module to detect objects in real-time using a pre-trained model on the COCO dataset. The detection process is powered by the SSD MobileNet v3 architecture.
 
-## Overview
+Key Features:
 
-This project provides a Python script to remove the background from images. It uses the rembg library to process the images and save the output with the background removed.
+Real-time object detection from a webcam feed.
+Bounding boxes and confidence scores are displayed for detected objects.
+Utilizes pre-trained models for quick and accurate detection.
+Requirements
+Python 3.x
+OpenCV (cv2)
+Pre-trained weights and config files for SSD MobileNet v3
+COCO class names file
+Install the required packages:
+bash
+Copy code
+pip install opencv-python
+Setup
+Clone the repository or download the necessary files:
 
-## Features
+OD.py (Main Python script)
+coco.names (COCO class labels)
+frozen_inference_graph.pb (Pre-trained weights)
+ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt (Model configuration)
+Place all the files in the same folder.
 
-- Removes background from images
-- Easy to use and integrate into other projects
-- Saves the processed images in a specified directory
+Make sure your webcam is connected and working.
 
-## Requirements
+Usage
+Run the Python script:
 
-- rembg
-- Pillow
-- requests
+bash
+Copy code
+python OD.py
+The script will open a window showing the webcam feed, and detected objects will be highlighted with bounding boxes along with their labels and confidence scores.
 
-## Usage
+Press q to quit the window.
 
-1. **Clone the Repository**
-    ```bash
-    git clone https://github.com/yourusername/Image-Background-Removal.git
-    cd Image-Background-Removal
-    ```
+COCO Classes
+The model is trained on the COCO dataset, which contains 80 common object classes such as:
 
-2. **Install the Required Packages**
-    ```bash
-    pip install -r requirements.txt
-    ```
+Person
+Bicycle
+Car
+Dog
+etc.
+The full list of classes is in the coco.names file included in this project.
 
-3. **Place the Image to be Processed**
-   Place the image you want to process in the project root directory and rename it to `nameLogo.png`.
-
-4. **Run the Script**
-    ```bash
-    python main.py
-    ```
-
-## Customization
-
-Feel free to customize and extend the code to suit your specific use case. Contributions are welcome!
-
-## Files
-
-```bash
-1. main.py: Main script for background removal.
-2. requirements.txt: Python dependencies.
-3. originals/: Directory for original images.
-4. masked/: Directory for images with removed background.
-
-```
-
-
-## Contributing
-Contributions are welcome! Feel free to open issues or submit pull requests for improvements and bug fixes.
-
-## Acknowledgments
-Thanks to the TensorFlow and OpenCV communities for their excellent tools and libraries.
-
-## Note
-Thank you for using this script! If you have any questions or suggestions, please feel free to reach out:
-```bash
-shrinkhalshrinkhal22@gmail.com
-```
+References
+SSD MobileNet v3
+COCO Dataset
+OpenCV DNN module
