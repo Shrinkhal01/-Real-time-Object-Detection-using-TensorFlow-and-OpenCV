@@ -32,11 +32,19 @@ pip install opencv-python
 Clone the repository or download the necessary files:
 ```
 OD.py (Main Python script)
-coco.names (COCO class labels)
-frozen_inference_graph.pb (Pre-trained weights)
-ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt (Model configuration)
-Place all the files in the same folder.
 ```
+```
+coco.names (COCO class labels)
+```
+```
+frozen_inference_graph.pb (Pre-trained weights)
+```
+```
+ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt (Model configuration)
+```
+Place all the files in the same folder.
+
+
 Make sure your webcam is connected and working.
 
 Usage
