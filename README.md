@@ -56,9 +56,9 @@ python OD.py
 
 - Press q to quit the window.
 
-COCO Classes
+# COCO Classes
 
-# The model is trained on the COCO dataset, which contains 80 common object classes such as:
+The model is trained on the COCO dataset, which contains 80 common object classes such as:
 
 -Person
 -Bicycle
