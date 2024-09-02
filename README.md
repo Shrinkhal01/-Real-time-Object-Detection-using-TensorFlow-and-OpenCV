@@ -49,8 +49,8 @@ Place all the files in the same folder.
 
 Make sure your webcam is connected and working.
 
-Usage
-Run the Python script:
+
+# Run the Python script:
 ```
 python OD.py
 ```
