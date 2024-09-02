@@ -14,14 +14,16 @@ This project uses OpenCV's DNN module to detect objects in real-time using a pre
 
 ### Key Features:
 
-Real-time object detection from a webcam feed.
-Bounding boxes and confidence scores are displayed for detected objects.
-Utilizes pre-trained models for quick and accurate detection.
-Requirements
-Python 3.x
-OpenCV (cv2)
-Pre-trained weights and config files for SSD MobileNet v3
-COCO class names file
+- Real-time object detection from a webcam feed.
+- Bounding boxes and confidence scores are displayed for detected objects.
+- Utilizes pre-trained models for quick and accurate detection.
+
+### Requirements
+- Python 3.x
+- OpenCV (cv2)
+- Pre-trained weights and config files for SSD MobileNet v3
+- COCO class names file
+
 Install the required packages:
 ```
 pip install opencv-python
