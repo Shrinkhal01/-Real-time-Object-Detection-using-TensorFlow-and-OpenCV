@@ -58,13 +58,12 @@ python OD.py
 
 COCO Classes
 
-### The model is trained on the COCO dataset, which contains 80 common object classes such as:
+# The model is trained on the COCO dataset, which contains 80 common object classes such as:
 
-Person
-Bicycle
-Car
-Dog
-etc.
+-Person
+-Bicycle
+-Car
+-Dog etc.
 
 ### The full list of classes is in the coco.names file included in this project.
 
