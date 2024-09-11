@@ -42,7 +42,7 @@ coco.names (COCO class labels)
 frozen_inference_graph.pb (Pre-trained weights)
 ```
 ```
-ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt (he ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt file is a model configuration file for the SSD MobileNet v3 architecture. It defines the structure and parameters of the neural network used for object detection. This file includes information about the layers, their types, inputs, attributes, and other configurations necessary for the model to process input data and perform object detection.)
+ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt (defines a node in the neural network configuration. Specifically, it describes a FusedBatchNormV3 operation applied)
 ```
 Place all the files in the same folder.
 
