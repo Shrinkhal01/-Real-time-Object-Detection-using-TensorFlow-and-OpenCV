@@ -48,7 +48,8 @@ Place all the files in the same folder.
 
 
 Make sure your webcam is connected and working.
-
+Tested on Python 3.7 and 3.12 
+It works great
 
 # Run the Python script:
 ```
