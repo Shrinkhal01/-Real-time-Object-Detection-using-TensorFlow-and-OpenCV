@@ -4,7 +4,7 @@ import cv2
 thres = 0.50
 
 #captures the video from the webcam
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 #Now , here we use cap to set the various aspects of the video being rendered
 cap.set(3, 1850)
 cap.set(4, 1850)
